@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.dropzone {
+  align-items: center;
+  border: 3px dashed #32a852;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  margin: 50px;
+  padding: 30px;
+  width: 150px;
+}
+
+p {
+  color: #32a852;
+}
+
+.cropper {
+  /* border: 3px dashed red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.preview {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+  width: 400px;
+  height: 200px
+}
+
+.buttons {
+  display: grid;
+  flex-direction: column;
+  width: 100px;
+  height: 50px;
+}
+
+button {
+  background-color: #32a852;
+  border: none;
+  color: #fff;
+  margin: 10px;
+  padding: 10px
+}
